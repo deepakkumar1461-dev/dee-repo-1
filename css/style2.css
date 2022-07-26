@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url('../images/background2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;  
+    background-size: cover;      
+}
+.nav {
+    background-color: rgb(252, 155, 171);
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+    
+  }
+  .nav li a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      
+  }
+  .nav li a:hover{
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.9);
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+@media screen and ( max-width:600px){
+    .nav li{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    }
+
+
+}
+.left{
+    display:inline-block;
+    float: left;
+    width: 33.33%;
+    height: 200px;
+    padding: 15px;
+    background-color: rgb(252, 155, 171);
+}
+.middle{
+    display:inline-block;
+    float: left;
+    width: 33.33%;
+    height: 200px;
+    padding: 15px;
+    background-color: rgb(252, 155, 171);
+}
+.middle .end-link li 
+{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+.middle .end-link li a
+{
+   
+    text-align: center;
+    color: white;
+    text-decoration:none;
+}
+footer .middle .end-link li a:hover
+{
+    border-bottom: 2px solid white;
+}
+.right{
+    text-align: center;
+    display:inline-block;
+    float: left;
+    height: 200px;
+    width: 33.33%;
+    padding: 15px;
+    background-color: rgb(252, 155, 171);
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .logos{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 5px;  
+    display: flex;
+    flex-direction: column;
+    margin: 2% 48% 2% 48%;
+   
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+img.call{
+     height: 20px;
+     width: 20px;
+     margin-top: 2%;
+     vertical-align: baseline;
+
+}
+@media screen and (max-width:600px){
+    .left{
+        
+        width: 100%;
+        height:100px;
+        padding-left:35%
+    }
+    .left h2{
+        text-align:left;
+    }
+    .middle{
+        
+        width: 100%;
+        height: 170px;
+    }
+    .right{
+        width: 100%;
+        font-size: 1rem;
+        height:110px;
+        
+    }
+    img.call{
+        height: 15px;
+        width: 15px;
+        margin-top: 1%%;
+        vertical-align: baseline;
+   
+   }
+    .logos{
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 5px;  
+        display: inline-block;
+        float: left;
+        margin: 2%;
+       
+    }
+}
+
+
+.active
+{
+    border-bottom: 2px solid white;
+}
+h1{ margin-top: 5%;
+    text-align: center;
+}
+
+hero p img{
+    width: 35%;
+    height: auto;
+    float: left;
+    margin: 0 40px 40px 40px;
+    border: 1px solid white;
+    box-shadow: 12px 12px 30px 2px rgba(255,255,255,0.9);
+    border-radius: 40px;
+}
+.paragraph{
+    font-size: 1.4rem;
+    margin-top: 30px;
+    padding:40px;
+    text-indent: 100px;
+    text-align: justify;
+}
+.paragraph::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+div.gallery {
+    border: 1px solid rgb(238, 102, 125);
+    background-color: rgb(252, 155, 171);
+    border-radius: 20px;
+    box-shadow: 12px 12px 30px 2px rgba(255,255,255,0.9);
+  }
+  
+div.gallery:hover {
+    
+    background-color: white;
+  }
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+  
+div.txt {
+    
+    text-align: center;
+    
+}
+.gallery-container {
+    padding: 5px 5px;
+    float: left;
+    width: 10%;
+    margin: 2% 5% 2% 9%;
+    display: block;
+    
+   
+
+}
+.albums{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+  
+@media only screen and (max-width: 600px) {
+    .gallery-container {
+      width: 20%;
+      margin: 2.5%;
+    }
+    hero p img{
+        width: 80%;
+        height: auto;
+        margin: 10%;
+    }
+ 

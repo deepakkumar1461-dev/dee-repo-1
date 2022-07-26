@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url('../images/background1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;  
+    background-size: cover;      
+}
+.nav {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .nav li a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+  }
+  .nav li a:hover{
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.6);
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+
+
+img{
+    height: 25%;
+    width: 25%;
+    display: block;
+    margin: 3% 37% 0 37% ;
+    border: 2px solid white;
+    box-shadow: 12px 12px 30px 2px rgba(255,255,255,0.9);
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+h2{
+    text-align: center;
+}
+p{
+    
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+
+
+.click
+{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.click a
+{
+   position: relative;
+   padding: 5px 15px;
+   background-color: rgba(27, 238, 245, 0.6);
+   box-shadow: 12px 12px 30px 2px rgba(255,255,255,0.9);
+   font-weight: bolder;
+   border: 1px solid white;
+   border-radius: 10px;
+   color: white;
+   text-decoration: none;
+}
+.click a:hover
+{
+   
+   background-color:white ;
+   color: black;
+   font-weight: bold;
+}
+@media screen and ( max-width:780px){
+    img{
+        height: 55%;
+        width: 55%;
+        margin: 10% 22% 10% 22%;
+    }
+    h1{
+        
+        font-size: 2rem;
+    }
+    p{
+        
+        margin-top: 10px;
+        font-size: 1.3rem;
+        
+    }
+    .click{
+        margin-top:5%;
+        
+    }
+    
+
+    
+}
+@media screen and ( max-width:600px){
+    img{
+        height: 55%;
+        width: 55%;
+        margin: 10% 22% 15% 22%;
+    }
+    h1{
+        
+        font-size: 2rem;
+    }
+    p{
+        
+        margin-top: 10px;
+        font-size: 1.3rem;
+        
+    }
+    .click{
+        margin-top:5%;
+        
+    }
+    .nav li{
+        display: block;
+        width: 100%;
+        padding: 5px;
+    }
+
+    
+}
+@media screen and ( max-width:400px){
+    img{
+        height: 65%;
+        width: 65%;
+        margin: 4% 17% 4% 17%;
+    }
+    h1{
+        
+        font-size: 2rem;
+    }
+    h2{
+        margin-top: 1vh;
+    }
+    p{
+        
+        margin-top: 1vh;
+        font-size: 1.2rem;
+        
+    }
+    .click{
+        margin-top: 2vh;
+       
+    }
+
+    .nav li{
+        display: block;
+        width: 100%;
+        padding: 5px;
+    }
+  
+}
